@@ -18,7 +18,7 @@ about the **pyam** package for scenario analysis and data visualization.
 
 **Important**: Do not change the name of the module `workflow.py` or the function `main`
 as they are called like this by the Job Execution Service.
-Details can be found [here](https://github.com/iiasa/ece/wiki/Setup-a-new-Scenario-Explorer-Instance#job-execution-service).
+Details can be found [here](https://wiki.ece.iiasa.ac.at/wiki/index.php/Scenario_Explorer/Setup#Job_Execution_Service).
 
 ## Project nomenclature
 
