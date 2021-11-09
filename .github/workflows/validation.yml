@@ -10,7 +10,7 @@ on:
     branches: [ '**' ]
 
 jobs:
-  pytest:
+  project-validation:
 
     runs-on: ubuntu-latest
 
