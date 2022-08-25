@@ -8,6 +8,12 @@ Copyright 2022 IIASA
 
 This is a template for project-specific scenario processing workflows.
 
+### Model registration
+
+If you want to register a model, please read the
+[instruction](https://nomenclature-iamc.readthedocs.io/en/stable/user_guide/model-registration.html)
+on the nomenclature documentation.
+
 ### Workflow
 
 The module `workflow.py` has a function `main(df: pyam.IamDataFrame) -> pyam.IamDataFrame:`.
@@ -25,3 +31,6 @@ as they are called like this by the Job Execution Service. Details can be found
 The folder `definitions` can contain the project nomenclature, i.e., list of allowed
 variables and regions, for use in the validation workflow. See the **nomenclature**
 package for more information ([link](https://github.com/iamconsortium/nomenclature)).
+
+The folder `mappings` can contain model mappings that are used to register models and
+define how results should be processed upon upload to a Scenario Explorer.
