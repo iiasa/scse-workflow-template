@@ -12,6 +12,9 @@ To use this template for a project, do the following:
 - Create a new repository from this template
 - Update the title and overview section of this Readme
 - Start adding definitions and mappings 
+- If you want to use the [common-definitions](https://github.com/IAMconsortium/common-definitions)
+  developed and maintained by the IAMC, rename the file `nomenclature_template.yaml`
+  to `nomenclature.yaml`.
 
 ### Project nomenclature
 
