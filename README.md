@@ -1,8 +1,8 @@
 # Scenario Explorer Workflow Template
 
-Copyright 2022-2023 IIASA
+Copyright 2022-2024 IIASA
 
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/charliermarsh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 
 ## Overview
 
@@ -12,6 +12,9 @@ To use this template for a project, do the following:
 - Create a new repository from this template
 - Update the title and overview section of this Readme
 - Start adding definitions and mappings 
+- If you want to use the [common-definitions](https://github.com/IAMconsortium/common-definitions)
+  developed and maintained by the IAMC, rename the file `nomenclature_template.yaml`
+  to `nomenclature.yaml`.
 
 ### Project nomenclature
 
