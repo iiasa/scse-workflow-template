@@ -4,6 +4,11 @@ Copyright 2022-2024 IIASA
 
 [![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/charliermarsh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 
+## Setup
+- Clone this repository or create a repository using this template repository.
+- Add a webhook in the repository.
+- Add `ece-scenario-services-team` as collaborators with `Admin` role in the settings of the repository and remove your personal access if you are part of the team.
+
 ## Overview
 
 This is a template for project-specific scenario processing workflows.
