@@ -6,7 +6,14 @@ Copyright 2022-2024 IIASA
 
 ## Setup
 - Clone this repository or create a repository using this template repository.
-- Add a webhook in the repository.
+- Add two webhooks in <workflow-name>-workflow repository. What is referred to as token in the Payload URL is actually just a identifier of a Jenkins job, no need to keep that secret. Copy it from any other workflow webhook settings.*
+
+  ```
+  Payload URL 1: https://builds.ece.iiasa.ac.at/generic-webhook-trigger/invoke?token=<token>
+  Payload URL 2: https://next-builds.ece.iiasa.ac.at/generic-webhook-trigger/invoke?token=<token>
+  Content type: application/json
+  Secret: Passbolt Jenkins HMAC Secret
+  ```
 - Add `ece-scenario-services-team` as collaborators with `Admin` role in the settings of the repository and remove your personal access if you are part of the team.
 
 ## Overview
