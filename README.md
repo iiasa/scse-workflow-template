@@ -6,7 +6,7 @@ Copyright 2022-2024 IIASA
 
 ## Setup
 - Clone this repository or create a repository using this template repository.
-- Add two webhooks in <workflow-name>-workflow repository. What is referred to as token in the Payload URL is actually just a identifier of a Jenkins job, no need to keep that secret. Copy it from any other workflow webhook settings.*
+- Add two webhooks in `<workflow-name>-workflow` repository. What is referred to as token in the Payload URL is actually just a identifier of a Jenkins job, no need to keep that secret. Copy it from any other workflow webhook settings.*
 
   ```
   Payload URL 1: https://builds.ece.iiasa.ac.at/generic-webhook-trigger/invoke?token=<token>
