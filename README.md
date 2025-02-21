@@ -10,8 +10,8 @@ Copyright 2022-2024 IIASA
 - Add two webhooks in `<workflow-name>-workflow` repository:
 
   ```
-  Payload URL 1: https://builds.ece.iiasa.ac.at/generic-webhook-trigger/invoke?token=<token>
-  Payload URL 2: https://next-builds.ece.iiasa.ac.at/generic-webhook-trigger/invoke?token=<token>
+  Payload URL 1: https://builds.ece.iiasa.ac.at/generic-webhook-trigger/invoke?token=uSnGsckCqQ6z6EMCxXCFyTDPpvmp8MyDnBcu2bHoSB7VdKjn
+  Payload URL 2: https://next-builds.ece.iiasa.ac.at/generic-webhook-trigger/invoke?token=uSnGsckCqQ6z6EMCxXCFyTDPpvmp8MyDnBcu2bHoSB7VdKjn
   Content type: application/json
   Secret: Passbolt Jenkins HMAC Secret
   ```
