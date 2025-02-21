@@ -4,6 +4,19 @@ Copyright 2022-2024 IIASA
 
 [![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/charliermarsh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 
+## Setup
+
+- Create a repository using this template.
+- Add two webhooks in `<workflow-name>-workflow` repository:
+
+  ```
+  Payload URL 1: https://builds.ece.iiasa.ac.at/generic-webhook-trigger/invoke?token=uSnGsckCqQ6z6EMCxXCFyTDPpvmp8MyDnBcu2bHoSB7VdKjn
+  Payload URL 2: https://next-builds.ece.iiasa.ac.at/generic-webhook-trigger/invoke?token=uSnGsckCqQ6z6EMCxXCFyTDPpvmp8MyDnBcu2bHoSB7VdKjn
+  Content type: application/json
+  Secret: Passbolt Jenkins HMAC Secret
+  ```
+- Add `ece-scenario-services-team` as collaborators with `Admin` role in the settings of the repository and remove your personal access if you are part of the team.
+
 ## Overview
 
 This is a template for project-specific scenario processing workflows.
