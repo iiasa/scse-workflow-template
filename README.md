@@ -5,6 +5,7 @@ Copyright 2022-2024 IIASA
 [![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/charliermarsh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 
 ## Setup
+
 - Clone this repository or create a repository using this template repository.
 - Add two webhooks in `<workflow-name>-workflow` repository. What is referred to as token in the Payload URL is actually just a identifier of a Jenkins job, no need to keep that secret. Copy it from any other workflow webhook settings.
 
