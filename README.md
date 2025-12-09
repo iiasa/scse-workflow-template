@@ -7,6 +7,8 @@ Copyright 2022-2024 IIASA
 ## Setup
 
 - Create a repository using this template.
+- Deactivate "merge commits" and "rebase merging" in the Settings
+  (so that only "squash merging" is allowed)
 - Add two webhooks in `<workflow-name>-workflow` repository:
 
   ```
